@@ -1,0 +1,324 @@
+/*font face
+@font-face{
+	src:url(../fonts/ubuntu/Ubuntu-Light.ttf);
+	font-family: Ubuntu-light;
+}
+@font-face{
+	src:url(../fonts/inconsolata/static/Inconsolata-Regular.ttf);
+	font-family: Inconsolata-Regular;
+}
+*/
+/*cdn fonts
+h1{
+	font-family: 'Playfair Display', serif;
+	font-weight: 400;
+}
+h3{
+	font-family: 'Playfair Display', serif;
+	font-weight: 700;
+}
+*/
+/*download fonts 
+h2{
+	font-family: Ubuntu-light;
+	font-weight: 300;
+
+}
+h4{
+	font-family: Inconsolata-Regular;
+	font-weight: 400;
+}
+*/
+/*common code */
+body{
+	margin: 0;
+	padding: 0;
+	font-family: 'Playfair Display' serif; 
+	font-size:16px;
+	font-weight:400;
+	color:#626262; 
+}
+header{
+	padding: 20px 0;
+
+}
+.wrapper{
+	margin: 0 auto;
+	width: 90%;
+	overflow: hidden;
+	
+
+
+}
+.logo{
+	width: 15%;
+	float: left;
+    
+
+
+}
+.logo a{
+
+
+}
+.logo a img{
+	width: 100%;
+
+}
+.menu{
+	width: 77%;
+	float: right;
+	
+
+
+}
+.menu ul{
+	float: right;
+
+}
+
+.menu ul li{
+	float: left;
+	list-style: none;
+
+	
+
+
+	
+
+
+}
+.menu ul li a{
+	margin: 0 60px;
+	padding: 5px 3px;
+	display: inline-block;
+	color:#626262; 
+	font-family: 'Playfair Display', serif;
+	text-transform: uppercase;
+	text-decoration:  none;
+	border-bottom: 1px solid transparent;
+
+}
+.menu ul li:last-child a{
+	margin-right: 0;
+} 
+.menu ul li a:hover{
+	border-bottom: 1px solid #222222;
+}
+/*banner start */
+.banner{
+
+} 
+.minimo_banner{
+
+}
+.minimo_banner img{
+	width: 100%;
+}
+/*banner end*/
+/*getaway start*/
+.getaway{
+	padding: 80px 0 105px;
+
+}
+.wrapper1{
+	margin: 0 auto; 
+	width: 80%;
+	
+
+}
+.content{
+
+
+
+}
+.c_small{
+	margin: 0;
+	font-family: 'Ubuntu',sans-serif;
+	font-size: 14px;
+	font-weight: 300;
+	color: #b4ad9e;
+	text-transform: uppercase;
+
+}
+.c_big{
+	margin: 30px 0 40px;
+	font-family:'Playfair Display' serif; 
+	font-size: 30px;
+	font-weight: 300;
+
+
+}
+.c_text{
+	margin: 0 0 50px;
+	font-family:'Playfair Display' serif; 
+	line-height: 23px;
+
+
+}
+/*content end*/
+/*blog start*/
+.blog{
+	padding: 80px 0 105px;
+
+}
+.blog_wrapper{
+	overflow: hidden;
+
+
+}
+.single_blog{
+	margin-bottom: 100px;
+	width: 47%;
+	float: left;
+
+}
+.blog_img{
+	width: 100%;
+
+}
+.single_blog:nth-child(even){
+	margin-left: 6%;
+}
+/*newsletter start*/
+.newsletter{
+	background-color:#f0f0f0;
+	padding: 80px 0 105px;
+	
+	
+	
+}
+.signup{
+	text-align: center;
+
+}
+.s_h1{
+	margin-top: 0;
+	margin-bottom: 80px;
+	color: #333333;
+}
+.s_form{
+	width: 400px;
+	position: relative;
+	margin: 0 auto;
+	
+
+}
+.s_form input{
+	font-family: 'Playfair Display' serif; 
+	font-size:14px;
+	font-weight:400;
+	color:#626262; 
+	width: 300px;
+	height: 30px;
+	border: none;
+	border-bottom: 1px solid #626262; 
+	background: transparent;
+	padding-left: 5px;
+	padding-right: 15px;
+}
+.s_form input:focus{
+	outline: 0;
+}
+.s_form button{
+	background:transparent;
+	border:none;
+	cursor: pointer;
+	position: absolute;
+	top: 10px;
+	right: 0;
+}
+ .s_form button:focus{
+	outline:0;
+}
+
+
+.form button img{
+	
+
+}
+.load{
+	padding: 80px 0 105px;
+	text-align: center;
+
+}
+.load button{
+	font-family: 'Playfair Display' serif; 
+	font-size:20px;
+	font-weight:400;
+	color:#626262; 
+	width: 160px; 
+	height: 60px;
+	background-color: transparent; 
+	border:1px solid#626262;
+}
+.load button:hover{
+	background-color: #626262;
+	color: white;
+}
+/*footer*/
+footer{
+	padding: 20px 0;
+
+}
+.terms{
+	width:55%;
+	float: left;
+    
+
+}
+.terms ul{
+	
+	float: left;
+
+}
+.terms ul li{
+	float: left;
+
+	
+	list-style: none;
+
+}
+.terms ul li a{
+	margin: 0 10px;
+	padding: 5px 3px;
+	color:black; 
+	font-family: 'Playfair Display', serif;
+	
+	text-decoration:  none;
+	border-bottom: 1px solid transparent;
+	display: inline-block;
+
+}
+
+.link{
+	width: 35%;
+	float: right;
+
+}
+.link ul{
+	float: right;
+
+}
+.link ul li{
+	float: left;
+	list-style: none;
+
+}
+.link ul li a{
+	margin: 0 30px;
+	padding: 5px 3px;
+	color:#626262; 
+	font-family: 'Playfair Display', serif;
+	text-transform: uppercase;
+	text-decoration:  none;
+	border-bottom: 1px solid transparent;
+	display: inline-block;
+
+}
+.link ul li:last-child a{
+	margin-right: 0;
+		}
+.link ul li a img{
+
+}
